@@ -10,7 +10,7 @@ sudo su - vagrant -c 'wget https://github.com/robbyrussell/oh-my-zsh/raw/master/
 
 # Set to "blinks" theme which
 # uses Solarized and shows user/host
-sudo sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="blinks"/' /home/vagrant/.zshrc
+sudo sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="miloshadzic"/' /home/vagrant/.zshrc
 # Add /sbin to PATH
 sudo sed -i 's=:/bin:=:/bin:/sbin:/usr/sbin:=' /home/vagrant/.zshrc
 
